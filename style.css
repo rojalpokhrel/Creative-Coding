@@ -355,7 +355,7 @@ nav a:hover {
   margin-top: 4px;
 }
 
-/* -------------For responsiveness woth different devices */
+/* -------------For responsiveness with different devices */
 /* <----------TABLET VIEW (768px)-------------> */
 @media (max-width: 768px) {
   nav {
@@ -365,7 +365,7 @@ nav a:hover {
   }
 
   .hero-section {
-    flex-direction: column;
+    flex-direction: column-reverse;
     height: auto;
     text-align: center;
   }
@@ -386,7 +386,6 @@ nav a:hover {
     flex-direction: column;
     gap: 1rem;
   }
-
   .about-division {
     flex-direction: column;
     padding: 20px;
